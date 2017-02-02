@@ -63,6 +63,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Persoon.cs" />
     <Compile Include="telefoon.xaml.cs">
       <DependentUpon>telefoon.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -94,6 +95,20 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\anne.jpg" />
+    <Resource Include="Images\bob.jpg" />
+    <Resource Include="Images\collega1.jpg" />
+    <Resource Include="Images\collega2.jpg" />
+    <Resource Include="Images\collega3.jpg" />
+    <Resource Include="Images\ed.jpg" />
+    <Resource Include="Images\grotezus.jpg" />
+    <Resource Include="Images\kleinezus.jpg" />
+    <Content Include="Images\PHONE.wav" />
+    <Resource Include="Images\tantenon.jpg" />
+    <Resource Include="Images\telefoon2.jpg" />
+    <Resource Include="Images\vader.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
