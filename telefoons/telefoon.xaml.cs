@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace telefoons
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for telefoon.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class telefoon : Window
     {
-        public MainWindow()
+        public telefoon()
         {
             InitializeComponent();
         }
