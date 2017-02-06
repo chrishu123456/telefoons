@@ -13,5 +13,14 @@ namespace telefoons
         public string Telefoonnr { get; set; }
         public string Groep { get; set; }
         public BitmapImage Foto { get; set; }
+
+        public Persoon(string naam, string telefoonnr, string groep, BitmapImage foto)
+        {
+            this.Naam = naam;
+            this.Telefoonnr = telefoonnr;
+            this.Groep = groep;
+            this.Foto = foto;
+        }
+
     }
 }
